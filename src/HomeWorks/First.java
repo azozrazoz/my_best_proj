@@ -21,7 +21,7 @@ public class First {
 
     public static void Run(byte[] lamps){
         for (byte j: lamps) {
-            System.out.printf(" %d ", j << i);
+            System.out.printf(" %d ", j << 1);
         }
 
         System.out.println();
