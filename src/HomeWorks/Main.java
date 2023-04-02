@@ -1,6 +1,8 @@
 package HomeWorks;
 
 import static HomeWorks.First.*;
+import static HomeWorks.Second.PASSWORD_PATTERN;
+
 import java.util.Scanner;
 
 public class Main {
@@ -59,6 +61,24 @@ public class Main {
                 }
             }
             case 4 -> LampsToBinary(lamps);
+        }
+
+        */
+
+        //////////////////////////////////////////////////////////////////// SECOND HOMEWORK
+
+        /*
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("*** Введите пароль: ");
+        String password = in.next();
+
+        if (PASSWORD_PATTERN.matcher(password).matches()) {
+            System.out.print("*** Пароль действителен: " + password);
+        }
+        else {
+            System.out.print("*** Пароль не действителен: " + password);
         }
 
         */
