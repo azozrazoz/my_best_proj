@@ -2,9 +2,13 @@ package HomeWorks;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
-class Printer
+class Printer<T>
 {
-
+    public void printArray(T[] arr) {
+        for (T t : arr) {
+            System.out.println(t);
+        }
+    }
 }
 class SwitchArray<T> {
     public T[] switchObjects(T[] objects, int from, int to) {
