@@ -11,6 +11,7 @@ public class Day_6 {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sc = new Scanner(System.in);
+        if (Instance)
         try {
             try {
                 int x = new Integer(sc.nextInt());
