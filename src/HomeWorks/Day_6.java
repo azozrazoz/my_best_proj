@@ -5,12 +5,16 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
+import java.util.Hashtable;
 
 public class Day_6 {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sc = new Scanner(System.in);
+        Hashtable<String, Integer> table = new Hashtable<>();
+        Enumeration<String> keys = table.keys();
+
         try {
             try {
                 int x = new Integer(sc.nextInt());
